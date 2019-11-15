@@ -11,6 +11,9 @@ namespace KangelasProjekt
         private string _name;
         private string _location;
 
-        public 
+        public Hero(string Name, string Location)
+        {
+
+        }
     }
 }
