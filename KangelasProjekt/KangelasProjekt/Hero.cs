@@ -8,12 +8,18 @@ namespace KangelasProjekt
 {
     class Hero
     {
-        private string _name;
-        private string _location;
+        public string Name;
+        public string Location;
 
         public Hero(string Name, string Location)
         {
+            this.Name = Name;
+
+            this.Location = Location;
 
         }
+
+
+    
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KangelasProjekt
 {
-    class SuperHero
+    class SuperHero:Hero
     {
         private static Random r = new Random();
         private  double _skill;
